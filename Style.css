@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card_bg {
+    padding-block: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color:hsl(47, 88%, 63%);
+}
+
+.blog_card {
+    width: fit-content;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 17px;
+    box-shadow: 15px 15px 0px;
+    padding: 30px;
+}
+@media screen and (max-width: 376px) {
+    .blog_card {
+        width: 330px;
+        box-shadow: 10px 10px 0px;
+        padding: 25px;
+    }
+}
+
+.article {
+    width: 340px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 376px) {
+    .article {
+        width: 277px;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+.learn_btn {
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    border-radius: 6px;
+    margin-block: 20px;
+    cursor: pointer;
+}
+
+.learn_btn_text {
+    padding-inline: 1px;
+    padding-block: 6px;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Figtree', sans-serif;
+}
+
+.published_date{
+    width: fit-content;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Figtree', sans-serif;
+}
+@media screen and (max-width: 376px) {
+    .published_date {
+        font-size: 11px;
+    }
+}
+
+.title{
+    width: fit-content;
+    color: hsl(47, 88%, 63%);
+    font-weight: 790;
+    font-family: 'Figtree', sans-serif;
+    font-size: 24px;
+    margin-block: 17px;
+    cursor: pointer;
+}
+@media screen and (max-width: 376px) {
+    .title_div h1 {
+        color:  hsl(0, 0%, 7%);
+        font-size: 20px;
+        word-spacing: -2px;
+        font-family: 'Figtree', sans-serif;
+        
+    }
+}
+
+.para{
+    width: 338px;
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+    color: hsl(0, 0%, 50%);
+}
+@media screen and (max-width: 376px) {
+    .para {
+        width: 275px;
+        font-size: 14px;
+    }
+}
+
+.profile{
+    width: fit-content;
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.profile_img{
+    width: 40px;
+}
+@media screen and (max-width: 376px) {
+    .profile_img {
+        width: 35px;
+    }
+}
+
+.profile_name{
+    margin-block: auto;
+    margin-left: 15px;
+    font-weight: 800;
+    font-family: 'Figtree', sans-serif;
+}
+@media screen and (max-width: 376px) {
+    .profile_name {
+        font-size: small;
+        font-family: src="./fonts";
+    }
+}
